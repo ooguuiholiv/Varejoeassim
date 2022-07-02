@@ -22,7 +22,7 @@ export const Container = styled.div`
 
   .header-text .primary-text {
     color: white;
-    font-size: 2.8rem;
+    font-size: max(3.25vw, 28px);
     font-family: 'Raleway', sans-serif;
   }
 
@@ -32,7 +32,7 @@ export const Container = styled.div`
 
   .header-text .second-text {
     margin-top: 1rem;
-    font-size: 1.2rem;
+    font-size: max(1.4vw,18px);
     color: white;
     font-family: 'Barlow', sans-serif;
 
@@ -43,21 +43,21 @@ export const Container = styled.div`
   }
 
   .data-event{
-    margin-top: 1.2rem;
+    margin-top: max(1.4vw,18px);
     display: flex;
     align-items: center;
   }
 
   .clock-event{
     color: #FF6600;
-    font-size: 1.8rem;
+    font-size: max(1.4vw,18px);
   }
 
   .event-data{
     text-transform: uppercase;
     margin-left: 0.4rem;
     color: #FF6600;
-    font-size: 1.2rem;
+    font-size: max(1.4vw,18px);
     margin-top: 0.1rem;
     font-family: 'Barlow', sans-serif;
   }
@@ -67,7 +67,7 @@ export const Container = styled.div`
     display: flex;
     flex-direction: column;
     color: white;
-    font-size: 1.1rem;
+    font-size: max(1.4vw,18px);
     font-family: 'Barlow', sans-serif;
 
   }
@@ -85,14 +85,14 @@ export const Container = styled.div`
 
   .btn-garanta{
     height: 7vh;
-    width: 15vw;
+    width: 25%;
     text-transform: uppercase;
     color: white;
     font-weight: bold;
     background-color: #1ed760;
     border: none;
     border-radius: 0.5rem;
-    font-size: 0.9rem;
+    font-size: max(1vw,14px);
   }
 
   .btn-garanta:hover{
@@ -111,7 +111,7 @@ export const Container = styled.div`
     color: white;
     font-weight: bold;
     text-transform: uppercase;
-    font-size: 1.2rem;
+    font-size: max(1.4vw,13px);
   }
 
 `;

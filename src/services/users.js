@@ -1,3 +1,8 @@
+import User1 from "../assets/users/01.jpg"
+import User2 from "../assets/users/02.jpg"
+import User3 from "../assets/users/03.jpg"
+import User4 from "../assets/users/04.jpg"
+
 let DBPal = {
   palestrantes: [
     {
@@ -5,28 +10,28 @@ let DBPal = {
       nome: "Jessé Rocha",
       empresa: "Markedin",
       tema: "etc",
-      img: ("/home/oguuiholiv/Documentos/PROJETOS/REACT/varejo/src/assets/users/01.jpg")
+      img: ({User1})
     },
     {
       id: 2,
       nome: "Paulo Guedes",
       empresa: "#######",
       tema: "etc",
-      img: ("/home/oguuiholiv/Documentos/PROJETOS/REACT/varejo/src/assets/users/01.jpg")
+      img: ({User2})
     },
     {
       id: 3,
       nome: "Thiago Nigro",
       empresa: "O primo rico",
       tema: "etc",
-      img: ("/home/oguuiholiv/Documentos/PROJETOS/REACT/varejo/src/assets/users/01.jpg")
+      img: ({User3})
     },
     {
       id: 4,
       nome: "Filipi Lima",
       empresa: "arkigai",
       tema: "etc",
-      img: ("/home/oguuiholiv/Documentos/PROJETOS/REACT/varejo/src/assets/users/01.jpg")
+      img: ({User4})
     },
   ]
 }

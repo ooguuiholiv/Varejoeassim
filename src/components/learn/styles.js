@@ -8,14 +8,14 @@ export const Container = styled.div`
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
+  height: 100%;
 
   .title {
     padding-top: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 2rem;
+    font-size: max(2.4vw, 30px);
     color: white;
   }
 
@@ -24,7 +24,7 @@ export const Container = styled.div`
     justify-content: center;
     align-items: center;
     color: white;
-    font-size: 1.9rem;
+    font-size: max(2.2vw,25px);
   }
   .subtitle span {
     color: rgba(0,64,255,0.9);
@@ -44,6 +44,13 @@ export const Container = styled.div`
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr ;
     column-gap: 3rem;
     row-gap: 1.5rem;
+    padding-bottom: 2vw;
+    @media (max-width:768px){
+       display: flex;
+       flex-direction: column;
+       height: 100%;
+       padding-bottom: 2vw;
+      }
 
     .box {
       background-color: transparent;
@@ -56,14 +63,17 @@ export const Container = styled.div`
       display: flex;
       color: white;
       font-family: 'Barlow', sans-serif;
+
+      
     }
 
     .box p{
       margin-left: 0.8rem;
-      font-size: 1.1rem;
+      font-size: max(1.2vw, 14px);
     }
     .box span{
-      border: 1rem solid rgba(0,64,255,0.9);
+      font-size: max(1.2vw, 12px);
+      border: max(1vw, 0.5rem) solid rgba(0,64,255,0.9);
       background-color: rgba(0,64,255,0.9);
       margin-left: 1rem;
       border-radius: 0.9rem;

@@ -10,7 +10,7 @@ width: 100%;
   justify-content: center;
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: max(1.8vw, 20px);
 }
   
 .content{
@@ -26,7 +26,7 @@ width: 100%;
   justify-content: center;
   color: #201d7b;
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: max(1.8vw, 18px);
 }
 `;
 

@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   width: 100%;
+  height: 100%;
   margin: 0;
   background: var(--padrao);
 
@@ -15,7 +16,7 @@ export const Container = styled.div`
     .title {
       margin-top: -14rem;
       color: white;
-      font-size: 2rem;
+      font-size: max(2.4vw, 26px);
       text-align: center;
       font-family: "Baumans", cursive;
     }
@@ -23,7 +24,7 @@ export const Container = styled.div`
       color: white;
       margin-top: 1.5rem;
       font-family: "Barlow", sans-serif;
-      font-size: 1rem;
+      font-size: max(1.2vw, 15px);
       text-align: center;
     }
   }
@@ -38,11 +39,16 @@ export const Container = styled.div`
     display: flex;
     justify-content: space-around;
     list-style: none;
+    gap: 4vw;
+  }
+
+  .items p{
+    font-size: max(1.2vw, 12px);
   }
 
   .items span {
     color: #ff6600;
-    font-size: 2rem;
+    font-size: max(3vw, 30px);
   }
 
   .items {
@@ -63,6 +69,7 @@ export const Container = styled.div`
   .infotxt {
     color: white;
     text-align: center;
+    font-size: max(1.2vw, 15px);
   }
 
   .consulta {
@@ -71,14 +78,14 @@ export const Container = styled.div`
     color: white;
     background-color: #ff1ea8;
     border: none;
-    width: 25vw;
-    height: 8vh;
+    width: 42%;
+    height: 4rem;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     justify-content: center;
     align-items: center;
-    font-size: 1.2rem;
+    font-size: max(1.4vw, 18px);
     border-radius: 0.8rem;
   }
   .consulta:hover {

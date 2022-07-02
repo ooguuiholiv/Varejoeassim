@@ -4,6 +4,7 @@ export const Container = styled.div`
   width: 100%;
   margin-top: 4rem;
   background-color: #433d7d;
+  
 
   .info1{
     width: 100%;
@@ -15,11 +16,12 @@ export const Container = styled.div`
     margin-left: auto;
     margin-right: auto;
     justify-content: space-between;
+    gap: 0 4vw;
     align-items: center;
     font-family: 'Barlow', sans-serif;
     font-weight: bold;
     color: white;
-    font-size: 1.8rem;
+    font-size: max(2.1vw, 16px);
     text-align: center;
     width: 80%;
   }
@@ -31,7 +33,7 @@ export const Container = styled.div`
     font-weight: bold;
     display: flex;
     justify-content: center;
-    font-size: 2.2rem;
+    font-size: max(2.6vw, 16px);
     text-align: center;
   }
   .info2 .title{
@@ -49,19 +51,19 @@ export const Container = styled.div`
     align-items: center;
     justify-content: space-between;
     color: #FF6600;
-    font-size: 7vh;
+    font-size: max(3.3vw, 30px);
     margin-top: 2rem;
   }
+  
 
   .idea1 ul{
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-    gap: 2rem;
+    gap: 1rem;
     list-style: none;
     display: flex;
     justify-content: center;
-    align-items: center;
     text-align: center;
   }
 
@@ -69,18 +71,17 @@ export const Container = styled.div`
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-    gap: 2rem;
+    gap: 1rem;
     list-style: none;
     display: flex;
     justify-content: center;
-    align-items: center;
     text-align: center;
   }
 
   .idea1 p{
     margin-top: 0.2rem;
     color: white;
-    font-size: 0.9rem;
+    font-size: max(1.3vw, 12px);
     text-align: center;
     font-family: 'Barlow', sans-serif;
   }
@@ -88,7 +89,7 @@ export const Container = styled.div`
   .idea2 p{
     margin-top: 0.2rem;
     color: white;
-    font-size: 0.9rem;
+    font-size: max(1.3vw, 12px);
     text-align: center;
     font-family: 'Barlow', sans-serif;
   }
@@ -104,8 +105,10 @@ export const Container = styled.div`
     align-items: center;
     justify-content: space-between;
     color: #FF6600;
-    font-size: 7vh;
+    font-size: max(3.3vw, 30px);
     margin-top: 2rem;
     
   }
+
+ 
 `;
