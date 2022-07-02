@@ -5,19 +5,19 @@ import User1 from "../../assets/users/01.jpg";
 // import User2 from "../../assets/users/02.jpg";
 // import User3 from "../../assets/users/03.jpg";
 // import User4 from "../../assets/users/04.jpg";
-// import DBPal from '../../services/users';
+import DBPal from '../../services/users';
 
 
 function Palestrantes() {
-  
+  const pall = DBPal.palestrantes;
   const [user, setUser] = useState([]);
   const apiUrl = process.env.REACT_APP_API_URL;
-  useEffect(() => {
-    axios.get(apiUrl + '/palestrantes').then(function (response) {
-      setUser(response.data)
-      console.log(response);
-    })
-  }, [])
+  // useEffect(() => {
+  //   axios.get(apiUrl + '/palestrantes').then(function (response) {
+  //     setUser(response.data)
+  //     console.log(response);
+  //   })
+  // }, [])
 
   return (
     <Container>
@@ -25,10 +25,10 @@ function Palestrantes() {
       <div className="content">
 
         <PalesList>
-          {user.map(users => {
+          {pall.map(users => {
             return (
               <Pales key={users.id}>
-                <img src={<User1/>} alt="" />
+                <img src={users.img.User1} alt="" />
                 <p className="nome">{users.nome}</p>
                 <p className="tema">{users.tema}</p>
                 <p className="empresa">{users.empresa}</p>
