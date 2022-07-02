@@ -10,84 +10,84 @@ let DBPal = {
       nome: "Jessé Rocha",
       empresa: "Markedin",
       tema: "etc",
-      img: ({User1})
+      img: (User1)
     },
     {
       id: 2,
       nome: "Paulo Guedes",
       empresa: "#######",
       tema: "etc",
-      img: ({User1})
+      img: (User2)
     },
     {
       id: 3,
       nome: "Thiago Nigro",
       empresa: "O primo rico",
       tema: "etc",
-      img: ({User1})
+      img: (User3)
     },
     {
       id: 4,
       nome: "Filipi Lima",
       empresa: "arkigai",
       tema: "etc",
-      img: ({User1})
+      img: (User4)
     },
     {
       id: 5,
       nome: "Jessé Rocha",
       empresa: "Markedin",
       tema: "etc",
-      img: ({User1})
+      img: (User1)
     },
     {
       id: 6,
       nome: "Paulo Guedes",
       empresa: "#######",
       tema: "etc",
-      img: ({User1})
+      img: (User2)
     },
     {
       id: 7,
       nome: "Thiago Nigro",
       empresa: "O primo rico",
       tema: "etc",
-      img: ({User1})
+      img: (User3)
     },
     {
       id: 8,
       nome: "Filipi Lima",
       empresa: "arkigai",
       tema: "etc",
-      img: ({User1})
+      img: (User4)
     },
     {
       id: 9,
       nome: "Jessé Rocha",
       empresa: "Markedin",
       tema: "etc",
-      img: ({User1})
+      img: (User1)
     },
     {
       id: 10,
       nome: "Paulo Guedes",
       empresa: "#######",
       tema: "etc",
-      img: ({User1})
+      img: (User2)
     },
     {
       id: 11,
       nome: "Thiago Nigro",
       empresa: "O primo rico",
       tema: "etc",
-      img: ({User1})
+      img: (User3)
     },
     {
       id: 12,
       nome: "Filipi Lima",
       empresa: "arkigai",
       tema: "etc",
-      img: ({User1})
+      img: (User4)
     },
   ]
 }

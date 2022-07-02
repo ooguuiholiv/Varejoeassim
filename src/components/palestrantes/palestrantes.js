@@ -10,6 +10,7 @@ import DBPal from '../../services/users';
 
 function Palestrantes() {
   const pall = DBPal.palestrantes;
+  console.log(pall)
   const [user, setUser] = useState([]);
   const apiUrl = process.env.REACT_APP_API_URL;
   // useEffect(() => {
@@ -28,7 +29,8 @@ function Palestrantes() {
           {pall.map(users => {
             return (
               <Pales key={users.id}>
-                <img src={users.img.User1} alt="" />
+                <img src={users.img} alt="" />
+                {console.log(users.img)}
                 <p className="nome">{users.nome}</p>
                 <p className="tema">{users.tema}</p>
                 <p className="empresa">{users.empresa}</p>
