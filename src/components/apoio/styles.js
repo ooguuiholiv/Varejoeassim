@@ -10,7 +10,7 @@ export const Container = styled.div`
   h1 {
     color: black;
     text-align: center;
-    padding-top: 4rem;
+    padding-top: 2rem;
     font-size: 2.5rem;
     font-family: "Baumans", cursive;
   }
@@ -43,8 +43,12 @@ export const Container = styled.div`
   /* Slider */
 
   .Slides{
-    width: 85%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
+
+    img{
+      width: 75%;
+    }
   }
 `;
