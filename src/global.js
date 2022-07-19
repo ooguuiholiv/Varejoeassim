@@ -53,6 +53,7 @@ table {
 
 :root{
 	--padrao: #433D7D;
+	--laranja: #ff6600
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;400&family=Raleway:wght@100;400&display=swap');

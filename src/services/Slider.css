@@ -1,0 +1,20 @@
+.swiper{
+
+}
+
+.swiper-slide{
+  display: flex;
+  justify-content: center;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: var(--laranja);
+}
+
+.swiper-button-prev {
+  color: var(--laranja);
+}
+
+.swiper-button-next {
+  color: var(--laranja);
+}

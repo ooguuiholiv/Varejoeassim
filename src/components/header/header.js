@@ -31,7 +31,9 @@ function header() {
         </div>
       </div>
         <div className="btn">
-          <button className="btn-garanta">inscrições abertas</button>
+          <button className="btn-garanta" onClick={()=>{
+            window.location.href = 'Aqui vai o link para redirect'
+          }}>inscrições abertas</button>
         </div>
         <div className="footer">
           <p className="text-footer">
