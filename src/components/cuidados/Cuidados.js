@@ -56,7 +56,9 @@ function Cuidados() {
           participação <br />
           no evento presencial:
         </h2>
-        <button className="consulta">Consultar outros protocolos vigentes</button>
+        <button className="consulta" onClick={() =>{
+          window.location.href = "aqui vai o redirect para os protocolos vigentes"
+        }}>Consultar outros protocolos vigentes</button>
       </div>
     </Container>
   );

@@ -87,6 +87,7 @@ export const Container = styled.div`
     align-items: center;
     font-size: max(1.4vw, 18px);
     border-radius: 0.8rem;
+    margin-bottom: 1.5rem;
   }
   .consulta:hover {
     background-color: #FF4571;

@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import Logo from "../../assets/va.png";
 
 export const Container = styled.div`
   width: 100%;
@@ -38,6 +37,7 @@ export const Container = styled.div`
     border: none;
     border-radius: 0.5rem;
     font-size: max(1vw, 14px);
+    margin-bottom: 1.5rem;
   }
 
   /* Slider */

@@ -5,9 +5,7 @@ import Header from '../components/header/header';
 import Info from '../components/info/info';
 import Learn from '../components/learn/Learn';
 import Palestrantes from '../components/palestrantes/palestrantes';
-
-
-
+import Youtube from '../components/Youtube/Youtube';
 
 
 function varejo() {
@@ -19,6 +17,7 @@ function varejo() {
       <Learn />
       <Cuidados />
       <Apoio />
+      <Youtube />
     </div>
   )
 }
