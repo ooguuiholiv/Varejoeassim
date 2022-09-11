@@ -57,8 +57,8 @@ function Cuidados() {
           no evento presencial:
         </h2>
         <button className="consulta" onClick={() =>{
-          window.location.href = "aqui vai o redirect para os protocolos vigentes"
-        }}>Consultar outros protocolos vigentes</button>
+          window.location.href = "https://www.sympla.com.br/varejo-e-assim__1711101?_gl=1*kgi88a*_ga*MTM1ODY1OTY5NC4xNjYyNjM0MDQy*_ga_KXH10SQTZF*MTY2MjYzNDA0MS4xLjEuMTY2MjYzNzEzMS4wLjAuMA"
+        }}>Faça sua inscrição</button>
       </div>
     </Container>
   );

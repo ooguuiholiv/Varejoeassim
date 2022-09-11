@@ -48,7 +48,7 @@ export const Container = styled.div`
     margin-right: auto;
 
     img{
-      width: 75%;
+      width: 50%;
     }
   }
 `;

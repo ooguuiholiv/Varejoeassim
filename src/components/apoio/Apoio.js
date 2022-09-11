@@ -4,14 +4,14 @@ import { Container } from "./styles";
 
 // import de imagens
 import Acii from "../../assets/apoio/acii.png";
-import Cafe from "../../assets/apoio/cafevemtem.png";
-import Casa from "../../assets/apoio/casa.png";
-import Dimensao from "../../assets/apoio/dimensao.png";
-import Faustino from "../../assets/apoio/faustino.png";
+// import Cafe from "../../assets/apoio/cafevemtem.png";
+// import Casa from "../../assets/apoio/casa.png";
+// import Dimensao from "../../assets/apoio/dimensao.png";
+// import Faustino from "../../assets/apoio/faustino.png";
 import Flat from "../../assets/apoio/flat.png";
-import Interativa from "../../assets/apoio/interativa.png";
+// import Interativa from "../../assets/apoio/interativa.png";
 import Loghaly from "../../assets/apoio/loghaly.png";
-import Negao from "../../assets/apoio/negao.png";
+// import Negao from "../../assets/apoio/negao.png";
 import Otica from "../../assets/apoio/oticasvida.png";
 import Vilela from "../../assets/apoio/vilela.png";
 import Vitoriosa from "../../assets/apoio/vitoriosa.png";
@@ -35,13 +35,13 @@ function Apoio() {
       <h1 className="title">Apoio:</h1>
       <div className="Slides">
         <Slider settings={settings}>
-          <SwiperSlide>
+          {/* <SwiperSlide>
             <img src={Cafe} alt="cafe" />
-          </SwiperSlide>
+          </SwiperSlide> */}
           <SwiperSlide>
             <img src={Acii} alt="cafe" />
           </SwiperSlide>
-          <SwiperSlide>
+          {/* <SwiperSlide>
             <img src={Casa} alt="cafe" />
           </SwiperSlide>
           <SwiperSlide>
@@ -49,19 +49,19 @@ function Apoio() {
           </SwiperSlide>
           <SwiperSlide>
             <img src={Faustino} alt="cafe" />
-          </SwiperSlide>
+          </SwiperSlide> */}
           <SwiperSlide>
             <img src={Flat} alt="cafe" />
           </SwiperSlide>
-          <SwiperSlide>
+          {/* <SwiperSlide>
             <img src={Interativa} alt="cafe" />
-          </SwiperSlide>
+          </SwiperSlide> */}
           <SwiperSlide>
             <img src={Loghaly} alt="cafe" />
           </SwiperSlide>
-          <SwiperSlide>
+          {/* <SwiperSlide>
             <img src={Negao} alt="cafe" />
-          </SwiperSlide>
+          </SwiperSlide> */}
           <SwiperSlide>
             <img src={Otica} alt="cafe" />
           </SwiperSlide>

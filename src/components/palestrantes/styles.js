@@ -62,6 +62,7 @@ display: flex;
 
   p{
     color: black;
+    text-align: center;
     text-transform: capitalize;
     
   }
