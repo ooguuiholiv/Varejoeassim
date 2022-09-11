@@ -85,7 +85,7 @@ export const Container = styled.div`
     text-align: center;
     justify-content: center;
     align-items: center;
-    font-size: max(1.4vw, 18px);
+    font-size: max(1.4vw, 16px);
     border-radius: 0.8rem;
     margin-bottom: 1.5rem;
   }

@@ -6,6 +6,16 @@ export const Container = styled.div`
   margin: 0;
   background-color: white;
 
+.parcImg{
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+
+  img{
+    width: 85%;
+  }
+}
+
   h1 {
     color: black;
     text-align: center;
@@ -36,7 +46,7 @@ export const Container = styled.div`
     background-color: #ff1ea8;
     border: none;
     border-radius: 0.5rem;
-    font-size: max(1vw, 14px);
+    font-size: max(1vw, 12px);
     margin-bottom: 1.5rem;
   }
 
@@ -51,4 +61,6 @@ export const Container = styled.div`
       width: 50%;
     }
   }
+
+  
 `;

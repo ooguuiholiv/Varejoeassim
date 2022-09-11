@@ -3,6 +3,7 @@ import Slider from "../../services/Slider";
 import { Container } from "./styles";
 
 // import de imagens
+import Cronograma from "../../assets/apoio/Cronograma.png";
 import Acii from "../../assets/apoio/acii.png";
 // import Cafe from "../../assets/apoio/cafevemtem.png";
 // import Casa from "../../assets/apoio/casa.png";
@@ -28,7 +29,7 @@ function Apoio() {
     navigation: true,
     pagination: {
       clickable: true,
-    }
+    },
   };
   return (
     <Container>
@@ -78,6 +79,9 @@ function Apoio() {
             <img src={Webtv} alt="cafe" />
           </SwiperSlide>
         </Slider>
+      </div>
+      <div className="parcImg">
+        <img src={Cronograma} alt="" />
       </div>
       <h1 className="subtitle">
         Seja um patrocinador ou <br /> expositor
