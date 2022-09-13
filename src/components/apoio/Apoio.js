@@ -5,6 +5,9 @@ import { Container } from "./styles";
 // import de imagens
 import Cronograma from "../../assets/apoio/Cronograma.png";
 import Acii from "../../assets/apoio/acii.png";
+import AciiS from "../../assets/apoio/aciiS.jpeg";
+import Sebrae from "../../assets/apoio/sebrae.jpeg";
+import Nature from "../../assets/apoio/nature.png";
 // import Cafe from "../../assets/apoio/cafevemtem.png";
 // import Casa from "../../assets/apoio/casa.png";
 // import Dimensao from "../../assets/apoio/dimensao.png";
@@ -40,7 +43,16 @@ function Apoio() {
             <img src={Cafe} alt="cafe" />
           </SwiperSlide> */}
           <SwiperSlide>
-            <img src={Acii} alt="cafe" />
+            <img src={Acii} alt="acii" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={AciiS} alt="aciis" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={Sebrae} alt="sebrae" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={Nature} alt="nature" />
           </SwiperSlide>
           {/* <SwiperSlide>
             <img src={Casa} alt="cafe" />

@@ -10,6 +10,10 @@ import Junior from '../assets/palestra/Júnior - Pratico.jpg'
 import Micaele from '../assets/palestra/Micaele Nascimento_.jpg'
 import Pedro from '../assets/palestra/Pedro - Alimentação Saudável_.jpg'
 import Wagner from '../assets/palestra/Wagner do Souza - Treinamentos_.jpg'
+import DanielaCosta from '../assets/palestra/danielacosta.png'
+import ArlindoGrund from '../assets/palestra/arlindogrund.png'
+import AnnaPaula from '../assets/palestra/annapaula.png'
+
 let DBPal = {
   palestrantes: [
     {
@@ -17,7 +21,7 @@ let DBPal = {
       nome: "Arlindo Grund",
       empresa: "",
       tema: "A moda como ferramentas de venda",
-      img: (Aline)
+      img: (ArlindoGrund)
     },
     {
       id: 2,
@@ -28,10 +32,10 @@ let DBPal = {
     },
     {
       id: 3,
-      nome: "Camila Soares",
+      nome: "Daniela Costa",
       empresa: "",
-      tema: "",
-      img: (CamilaSoares)
+      tema: "Sexualidade e bem estar",
+      img: (DanielaCosta)
     },
     {
       id: 4,
@@ -95,6 +99,13 @@ let DBPal = {
       empresa: "",
       tema: "Despertando gigantes",
       img: (Wagner)
+    },
+    {
+      id: 13,
+      nome: "Anna Paula",
+      empresa: "",
+      tema: "Versatilidade da moda infantil",
+      img: (AnnaPaula)
     },
   ]
 }

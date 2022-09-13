@@ -17,8 +17,11 @@ function Palestrantes() {
                 <img src={users.img} alt="" />
                 {console.log(users.img)}
                 <h1 className="nome">{users.nome}</h1>
-                <p className="tema"> {users.tema}</p>
-                {console.log(users.img)}
+                <div className="tema-text">
+                  <h2>tema:  </h2>
+                  <p className="tema"> {users.tema}</p>
+                  <button className="ins">inscreva-se</button>
+                </div>
               </Pales>
             );
           })}

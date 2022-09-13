@@ -35,7 +35,7 @@ export const PalesList = styled.ul`
 margin-top: 5rem;
 list-style: none;
 display: grid;
-grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 column-gap: 2rem;
 row-gap: 3rem;
 `
@@ -59,17 +59,37 @@ display: flex;
   a:hover {
     transform: scale(1.1);
   }
-
+.tema-text{
+  display: flex;
+flex-direction: column;
+align-items: center;
+  h2{
+    color: orange;
+    font-size: 1.3rem;
+    padding-top: 0.5rem;
+  }
   p{
     margin-top: 0.3rem;
     color: blue;
     text-align: center;
     text-transform: none;
+    padding-left: 0.4rem;
     
   }
-  h1 {
-    font-size: 1.2rem;
-    color: black;
+  .ins {
+    width: auto;
+    margin-top: 0.4rem;
+    border: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: orange;
+    color: white;
+    border-radius: 0.2rem;
   }
+}
+h1 {
+  font-size: 1.4rem;
+  color: black;
+}
 
 `
