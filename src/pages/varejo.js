@@ -1,6 +1,7 @@
 import React from 'react'
 import Apoio from '../components/apoio/Apoio';
 import Cuidados from '../components/cuidados/Cuidados';
+import { Footer } from '../components/Footer';
 import Header from '../components/header/header';
 import Info from '../components/info/info';
 import Learn from '../components/learn/Learn';
@@ -18,6 +19,7 @@ function varejo() {
       <Cuidados />
       <Apoio />
       <Youtube />
+      <Footer />
     </div>
   )
 }

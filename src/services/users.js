@@ -14,17 +14,17 @@ let DBPal = {
   palestrantes: [
     {
       id: 1,
-      nome: "Aline",
+      nome: "Arlindo Grund",
       empresa: "",
-      tema: "Estilo e moda",
+      tema: "A moda como ferramentas de venda",
       img: (Aline)
     },
     {
       id: 2,
-      nome: "Anderson Melo",
-      empresa: "Presidente CDL",
-      tema: "",
-      img: (AndersonMelo)
+      nome: "Fabio Melo",
+      empresa: "",
+      tema: "A nova Ordem Mercadológica",
+      img: (FabioMelo)
     },
     {
       id: 3,
@@ -49,10 +49,10 @@ let DBPal = {
     },
     {
       id: 6,
-      nome: "Fabio Melo",
+      nome: "Aline",
       empresa: "",
-      tema: "A nova Ordem Mercadológica",
-      img: (FabioMelo)
+      tema: "Estilo e moda",
+      img: (Aline)
     },
     {
       id: 7,
