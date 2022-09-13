@@ -1,5 +1,6 @@
 import React from 'react'
 import Apoio from '../components/apoio/Apoio';
+import { Cronograma } from '../components/Cronograma';
 import Cuidados from '../components/cuidados/Cuidados';
 import { Footer } from '../components/Footer';
 import Header from '../components/header/header';
@@ -16,6 +17,7 @@ function varejo() {
       <Palestrantes />
       <Info />
       <Learn />
+      <Cronograma />
       <Cuidados />
       <Apoio />
       <Youtube />
