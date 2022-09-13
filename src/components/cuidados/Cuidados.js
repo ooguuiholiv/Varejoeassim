@@ -52,13 +52,12 @@ function Cuidados() {
       </div>
       <div className="info">
         <h2 className="infotxt">
-          Confira abaixo a política com os protocolos necessários para sua
-          participação <br />
-          no evento presencial:
+          Faça já a sua inscrição no evento<br />
+          
         </h2>
         <button className="consulta" onClick={() =>{
           window.location.href = "https://www.sympla.com.br/varejo-e-assim__1711101?_gl=1*kgi88a*_ga*MTM1ODY1OTY5NC4xNjYyNjM0MDQy*_ga_KXH10SQTZF*MTY2MjYzNDA0MS4xLjEuMTY2MjYzNzEzMS4wLjAuMA"
-        }}>Faça sua inscrição</button>
+        }}>Inscreva-se</button>
       </div>
     </Container>
   );

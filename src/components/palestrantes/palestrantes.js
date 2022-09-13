@@ -16,9 +16,8 @@ function Palestrantes() {
               <Pales key={users.id}>
                 <img src={users.img} alt="" />
                 {console.log(users.img)}
-                <p className="nome">{users.nome}</p>
-                <p className="tema">{users.tema}</p>
-                <p className="empresa">{users.empresa}</p>
+                <h1 className="nome">{users.nome}</h1>
+                <p className="tema"> {users.tema}</p>
                 {console.log(users.img)}
               </Pales>
             );

@@ -61,10 +61,15 @@ display: flex;
   }
 
   p{
-    color: black;
+    margin-top: 0.3rem;
+    color: blue;
     text-align: center;
-    text-transform: capitalize;
+    text-transform: none;
     
+  }
+  h1 {
+    font-size: 1.2rem;
+    color: black;
   }
 
 `

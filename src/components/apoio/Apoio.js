@@ -9,14 +9,14 @@ import Acii from "../../assets/apoio/acii.png";
 // import Casa from "../../assets/apoio/casa.png";
 // import Dimensao from "../../assets/apoio/dimensao.png";
 // import Faustino from "../../assets/apoio/faustino.png";
-import Flat from "../../assets/apoio/flat.png";
+// import Flat from "../../assets/apoio/flat.png";
 // import Interativa from "../../assets/apoio/interativa.png";
-import Loghaly from "../../assets/apoio/loghaly.png";
+// import Loghaly from "../../assets/apoio/loghaly.png";
 // import Negao from "../../assets/apoio/negao.png";
-import Otica from "../../assets/apoio/oticasvida.png";
+// import Otica from "../../assets/apoio/oticasvida.png";
 import Vilela from "../../assets/apoio/vilela.png";
 import Vitoriosa from "../../assets/apoio/vitoriosa.png";
-import Voltz from "../../assets/apoio/voltz.png";
+// import Voltz from "../../assets/apoio/voltz.png";
 import Webtv from "../../assets/apoio/webtv.png";
 // fim das imagens
 import { SwiperSlide } from "swiper/react";
@@ -51,30 +51,30 @@ function Apoio() {
           <SwiperSlide>
             <img src={Faustino} alt="cafe" />
           </SwiperSlide> */}
-          <SwiperSlide>
+          {/* <SwiperSlide>
             <img src={Flat} alt="cafe" />
-          </SwiperSlide>
+          </SwiperSlide> */}
           {/* <SwiperSlide>
             <img src={Interativa} alt="cafe" />
           </SwiperSlide> */}
-          <SwiperSlide>
+          {/* <SwiperSlide>
             <img src={Loghaly} alt="cafe" />
-          </SwiperSlide>
+          </SwiperSlide> */}
           {/* <SwiperSlide>
             <img src={Negao} alt="cafe" />
           </SwiperSlide> */}
-          <SwiperSlide>
+          {/* <SwiperSlide>
             <img src={Otica} alt="cafe" />
-          </SwiperSlide>
+          </SwiperSlide> */}
           <SwiperSlide>
             <img src={Vilela} alt="cafe" />
           </SwiperSlide>
           <SwiperSlide>
             <img src={Vitoriosa} alt="cafe" />
           </SwiperSlide>
-          <SwiperSlide>
+          {/* <SwiperSlide>
             <img src={Voltz} alt="cafe" />
-          </SwiperSlide>
+          </SwiperSlide> */}
           <SwiperSlide>
             <img src={Webtv} alt="cafe" />
           </SwiperSlide>

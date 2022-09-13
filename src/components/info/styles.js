@@ -39,6 +39,7 @@ export const Container = styled.div`
   .info2 .title{
     font-family: 'Baumans', cursive;
     margin-top: 4rem;
+    font-size: max(2rem, 14px);
   }
   .idea1{
     background-color: #433d7d;
