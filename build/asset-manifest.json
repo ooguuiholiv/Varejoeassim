@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.f3f13ebb.css",
-    "main.js": "./static/js/main.87876c72.js",
+    "main.js": "./static/js/main.e51b0594.js",
     "static/media/meeting.jpg": "./static/media/meeting.214d04d83866660466a7.jpg",
     "static/media/annapaula.png": "./static/media/annapaula.5dab8ffb4ea138de1652.png",
     "static/media/arlindogrund.png": "./static/media/arlindogrund.e5acb8e253a3020a11db.png",
@@ -19,8 +19,12 @@
     "static/media/José Leonardo - Experiência do Cliente_.jpg": "./static/media/José Leonardo - Experiência do Cliente_.e20ec62b6767da2e16d1.jpg",
     "static/media/va.png": "./static/media/va.61ea79f0959b558f7e03.png",
     "static/media/webtv.png": "./static/media/webtv.a3eff1de8fdb13f48c23.png",
+    "static/media/cronograma.png": "./static/media/cronograma.628aba8719677a5e9bc2.png",
     "static/media/acii.png": "./static/media/acii.0da5c75538e5199e635e.png",
     "static/media/vitoriosa.png": "./static/media/vitoriosa.f3e62d4d141ddc1b5e14.png",
+    "static/media/cdl.png": "./static/media/cdl.40d9d32785431b0cbee7.png",
+    "static/media/shopdin.png": "./static/media/shopdin.70fb0c418417c99e9723.png",
+    "static/media/nature.png": "./static/media/nature.0ca4977a6828c2b18ec2.png",
     "static/media/sebrae.jpeg": "./static/media/sebrae.06e20a825a01f4cf450c.jpeg",
     "static/media/Aline Planet - Empoderamento Feminino_.jpg": "./static/media/Aline Planet - Empoderamento Feminino_.d5db41cb90fab2c510a9.jpg",
     "static/media/Anderson Melo - Presidente CDL.jpg": "./static/media/Anderson Melo - Presidente CDL.8e5920f1217cb3c6d43a.jpg",
@@ -28,10 +32,10 @@
     "static/media/vilela.png": "./static/media/vilela.e1a1acd9d74cdf8cbed6.png",
     "index.html": "./index.html",
     "main.f3f13ebb.css.map": "./static/css/main.f3f13ebb.css.map",
-    "main.87876c72.js.map": "./static/js/main.87876c72.js.map"
+    "main.e51b0594.js.map": "./static/js/main.e51b0594.js.map"
   },
   "entrypoints": [
     "static/css/main.f3f13ebb.css",
-    "static/js/main.87876c72.js"
+    "static/js/main.e51b0594.js"
   ]
 }

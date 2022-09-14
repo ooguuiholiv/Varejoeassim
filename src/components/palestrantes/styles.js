@@ -85,6 +85,7 @@ align-items: center;
     background-color: orange;
     color: white;
     border-radius: 0.2rem;
+    cursor: pointer;
   }
 }
 h1 {

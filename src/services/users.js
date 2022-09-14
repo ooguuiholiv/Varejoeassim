@@ -1,6 +1,6 @@
 import Aline from "../assets/palestra/Aline Planet - Empoderamento Feminino_.jpg"
-import AndersonMelo from "../assets/palestra/Anderson Melo - Presidente CDL.jpg"
-import CamilaSoares from "../assets/palestra/Camila Soares - Diretora Procon.jpg"
+import Jorge from "../assets/palestra/jorgenunes.jpeg"
+import Helio from "../assets/palestra/helio.jpeg"
 import ElisaNovaes from "../assets/palestra/Elisa Novaes - Natury_.jpg"
 import Emilly from '../assets/palestra/Emilly_.jpg' 
 import FabioMelo from '../assets/palestra/Fabio Melo - Yamo.jpg'
@@ -38,6 +38,20 @@ let DBPal = {
       img: (DanielaCosta)
     },
     {
+      id: 14,
+      nome: "Hélio Júnior",
+      empresa: "",
+      tema: "Como investir sem capital",
+      img: (Helio)
+    },
+    {
+      id: 15,
+      nome: "Jorge Nunes",
+      empresa: "",
+      tema: "A importância da proteção automático",
+      img: (Jorge)
+    },
+    {
       id: 4,
       nome: "Eliza Novaes",
       empresa: "",
@@ -53,7 +67,7 @@ let DBPal = {
     },
     {
       id: 6,
-      nome: "Aline",
+      nome: "Aline Luísa",
       empresa: "",
       tema: "Estilo e moda",
       img: (Aline)
