@@ -36,8 +36,7 @@ function header() {
         <button
           className="btn-garanta"
           onClick={() => {
-            window.location.href =
-              "https://www.sympla.com.br/varejo-e-assim__1711101?_gl=1*kgi88a*_ga*MTM1ODY1OTY5NC4xNjYyNjM0MDQy*_ga_KXH10SQTZF*MTY2MjYzNDA0MS4xLjEuMTY2MjYzNzEzMS4wLjAuMA";
+            alert('Clicou no link')
           }}
         >
           inscrições abertas

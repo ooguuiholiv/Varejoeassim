@@ -52,12 +52,17 @@ function Cuidados() {
       </div>
       <div className="info">
         <h2 className="infotxt">
-          Faça já a sua inscrição no evento<br />
-          
+          Faça já a sua inscrição no evento
+          <br />
         </h2>
-        <button className="consulta" onClick={() =>{
-          window.location.href = "https://www.sympla.com.br/varejo-e-assim__1711101?_gl=1*kgi88a*_ga*MTM1ODY1OTY5NC4xNjYyNjM0MDQy*_ga_KXH10SQTZF*MTY2MjYzNDA0MS4xLjEuMTY2MjYzNzEzMS4wLjAuMA"
-        }}>Inscreva-se</button>
+        <button
+          className="consulta"
+          onClick={() => {
+            alert("clicou no link");
+          }}
+        >
+          Inscreva-se
+        </button>
       </div>
     </Container>
   );

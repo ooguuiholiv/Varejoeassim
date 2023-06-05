@@ -17,7 +17,7 @@ export const Container = styled.div`
 
   img {
     width: 65vw;
-
+    
     @media screen and (max-width: 768px) {
       width: 80vw;
       height: 30vh;
