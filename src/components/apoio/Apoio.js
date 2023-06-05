@@ -106,8 +106,7 @@ function Apoio() {
         <button
           className="btn-garanta"
           onClick={() => {
-            window.location.href =
-              "https://api.whatsapp.com/send?phone=5534998682292&text=Ol%C3%A1%2C%20tenho%20interesse%20em%20patrocinar%20o%20evento!";
+           alert('Clicou no link')
           }}
         >
           Quero patrocinar o evento
